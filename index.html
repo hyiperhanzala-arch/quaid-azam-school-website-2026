@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -88,6 +88,13 @@
         .hero-text p {
             font-size: 17px;
             line-height: 1.8;
+        }
+
+        .anthem audio {
+            display: block;
+            width: 100%;
+            max-width: 500px;
+            margin-top: 15px;
         }
 
         footer {
@@ -250,6 +257,20 @@
             </h2>
         </div>
 
+        <!-- National Anthem audio player -->
+        <div class="section anthem">
+            <h2>Pakistan National Anthem</h2>
+            <p>Listen to the National Anthem of Pakistan:</p>
+
+            <audio controls>
+                <source
+                    src="National_anthem_of_Pakistan,_instrumental.oga%20(1).ogx"
+                    type="audio/ogg"
+                >
+                Your browser does not support audio.
+            </audio>
+        </div>
+
     </main>
 
     <footer>
@@ -258,4 +279,6 @@
         <p>Pakistan Zindabad!</p>
     </footer>
 </body>
-    </html>
+</html>  
+
+        
